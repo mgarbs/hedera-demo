@@ -1,6 +1,6 @@
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
-import HCSTabs from './HCSTabs';
+import HCSTabs from './hcs/HCSTabs';
 
 function ServicesTabs() {
     return (
