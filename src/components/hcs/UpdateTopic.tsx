@@ -26,7 +26,10 @@ function UpdateTopic() {
             </Form.Group>
             <Form.Group as={Col} controlId="formTopicRenewalAccount">
                 <Form.Label>Set topic renewal account</Form.Label>
-                <Form.Control type="text" placeholder="Account ID (<realm>.<shard>.<accountNum>) e.g 0.0.12345" />
+                <Form.Control type="text" placeholder="Account ID (<realm>.<shard>.<accountNum>)" />
+                <Form.Text className="text-muted">
+                    e.g 0.0.12345
+                </Form.Text>
             </Form.Group>
             <Button variant="primary" type="submit">
                 Update Topic
