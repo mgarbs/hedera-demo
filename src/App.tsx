@@ -3,9 +3,7 @@ import React from 'react';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import Container from 'react-bootstrap/Container';
 
-import ButtonsShowcase from './showcases/Buttons';
-import ToastsShowcase from './showcases/Toasts';
-import SubmitMessage from './components/Tabs';
+import ServicesTabs from './components/ServicesTabs';
 
 const App: React.FC = () => {
   return (
@@ -15,11 +13,7 @@ const App: React.FC = () => {
         Hedera Services Demo
         </h1>
       </Jumbotron>
-      {/* <h2>Buttons</h2>
-      <ButtonsShowcase />
-      <h2>Toasts</h2>
-      <ToastsShowcase /> */}
-      <SubmitMessage />      
+      <ServicesTabs />      
     </Container>
   );
 };

@@ -1,6 +1,6 @@
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
-import SubmitMessage from './SubmitMessage';
+import HCSTabs from './HCSTabs';
 
 function ServicesTabs() {
     return (
@@ -10,13 +10,13 @@ function ServicesTabs() {
             className="mb-3"
         >
             <Tab eventKey="hcs" title="Hedera Consensus Service">
-                <SubmitMessage />
+                <HCSTabs />
             </Tab>
             <Tab eventKey="hts" title="Hedera Token Service">
-                <SubmitMessage />
+                <HCSTabs />
             </Tab>
             <Tab eventKey="hscs" title="Hedera Smart Conracts">
-                <SubmitMessage />
+                <HCSTabs />
             </Tab>
         </Tabs>
     );

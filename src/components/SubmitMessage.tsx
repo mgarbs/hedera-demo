@@ -4,7 +4,7 @@ import Form from 'react-bootstrap/Form';
 function SubmitMessage() {
     return (
         <Form>
-            <Form.Group className="mb-3" controlId="formTopicIdl">
+            <Form.Group className="mb-3" controlId="formTopicId">
                 <Form.Label>Topic ID</Form.Label>
                 <Form.Control type="text" placeholder="Enter topic ID (<shardNum>,<realmNum>,<topicID>)" />
                 <Form.Text className="text-muted">
