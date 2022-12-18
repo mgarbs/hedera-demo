@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@bladelabs/blade-web3.js": "^0.9.13",
+    "@hashgraph/sdk": "^2.19.0",
     "@types/jest": "26.0.22",
     "@types/node": "12.20.10",
     "@types/react": "17.0.3",
