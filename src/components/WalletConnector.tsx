@@ -3,6 +3,24 @@ import Button from 'react-bootstrap/Button';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import Modal from 'react-bootstrap/Modal';
 
+// import {BladeSigner, HederaNetwork} from '@bladelabs/blade-web3.js';
+
+
+
+// async function initBlade() {
+//     const bladeSigner = new BladeSigner();
+//     const params = {
+//       network: HederaNetwork.Testnet,
+//       // dAppCode - optional while testing, request specific one by contacting us.
+//       dAppCode: "yourAwesomeApp"
+//     }
+//     // create session with optional parameters.
+//     await bladeSigner.createSession(params);
+
+//     // bladeSigner object can now be used.
+//     bladeSigner.getAccountId();
+// }
+
 function WalletConnector() {
     const [show, setShow] = useState(false);
 
