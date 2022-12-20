@@ -1,7 +1,6 @@
 import React from 'react';
 
-import Jumbotron from 'react-bootstrap/Jumbotron';
-import Container from 'react-bootstrap/Container';
+import {Container, Jumbotron} from 'react-bootstrap';
 
 import ServicesTabs from './components/ServicesTabs';
 import WalletConnector from './components/WalletConnector';
@@ -15,7 +14,7 @@ const App: React.FC = () => {
         Hedera Services Demo
         </h1>
       </Jumbotron>
-      <ServicesTabs />      
+      <ServicesTabs />
     </Container>
   );
 };

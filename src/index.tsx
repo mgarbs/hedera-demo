@@ -1,13 +1,16 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { createRoot } from 'react-dom/client';
 import App from './App';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter } from "react-router-dom";
 
-ReactDOM.render(
-    <BrowserRouter>
-      <App />
-    </BrowserRouter>,
-    document.getElementById("root")
-  );
+const container = document.getElementById('app');
+if (container) {
+    const root = createRoot(container);
+    root.render(
+        <BrowserRouter>
+            <App />
+        </BrowserRouter>
+    );
+}
